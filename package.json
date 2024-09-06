@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JobGoog/-.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "JobGoog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JobGoog/-/issues"
+  },
+  "homepage": "https://github.com/JobGoog/-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@eslint/js": "^9.9.1",
+    "core-js": "^3.38.1",
+    "eslint": "^8.57.0",
+    "globals": "^15.9.0"
+  }
+}
